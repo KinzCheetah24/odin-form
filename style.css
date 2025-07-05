@@ -1,5 +1,5 @@
 @font-face {
-  font-family: my-font;
+  font-family: logo-font;
   src: url(../fonts/Norse-Bold.otf);
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .logo .title {
-    font-family: my-font, sans-serif;
+    font-family: logo-font, sans-serif;
     font-size: 10vh;
 }
 
@@ -63,4 +63,42 @@ body {
 .form-data {
     height: 100vh;
     flex: 2 1 0%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    background-color: whitesmoke;
+}
+
+.paragraph p {
+    font-family: Roboto, sans-serif;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    margin-left: 3vw;
+    margin-right: 5vw;
+}
+
+.paragraph p:nth-child(1) {
+    margin-top: 20vh;
+}
+
+.paragraph p:nth-child(2) {
+    margin-bottom: 3vh;
+}
+
+form {
+    flex: 1;
+}
+
+.create-account {
+    flex: 1;
+    background-color: whitesmoke;
 }

@@ -54,7 +54,7 @@ body {
 }
 
 .logo .title {
-    font-family: logo-font, sans-serif;
+    font-family: 'logo-font', sans-serif;
     font-size: 10vh;
 }
 
